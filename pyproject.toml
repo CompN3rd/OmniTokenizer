@@ -1,0 +1,35 @@
+[project]
+name = "OmniTokenizer"
+version = "0.1.0"
+description = "Official pytorch implementation of the following paper: OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation."
+authors = [{ name = "Junke Wang", email = "wangjk21@m.fudan.edu.cn" }]
+dependencies = [
+    "einops",
+    "ftfy",
+    "h5py",
+    "imageio",
+    "pytorch-lightning==1.5.4",
+    "regex",
+    "scikit-video",
+    "tqdm",
+    "fairscale",
+    "lightning",
+    "diffusers",
+    "accelerate",
+    "lpips",
+    "tensorflow",
+    "numpy==1.26.2",
+    "scipy",
+    "opencv-python",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true

@@ -9,6 +9,7 @@ core
 .pyc
 .idea/
 output*
+*.pdm-python
 
 ckpts_pub/
 ckpts*
