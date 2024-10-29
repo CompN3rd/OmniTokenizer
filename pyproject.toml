@@ -30,6 +30,9 @@ license = { text = "MIT" }
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
-
 [tool.pdm]
 distribution = true
+includes = ["OmniTokenizer/*"]
+
+[tool.pdm.build]
+includes = ["OmniTokenizer"]
