@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:5010c50df07da4d2b85bcbbfbc2269d200b06c01c745de1cc639a56e23dfca2e"
+content_hash = "sha256:0dc81920d873d22c35d972df865b9892c10fbbaf5a10031ac9783911b81216ad"
 
 [[metadata.targets]]
 requires_python = ">=3.11"
@@ -235,6 +235,19 @@ marker = "platform_system == \"Windows\""
 files = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
+]
+
+[[package]]
+name = "decord"
+version = "0.6.0"
+summary = "Decord Video Loader"
+groups = ["default"]
+dependencies = [
+    "numpy>=1.14.0",
+]
+files = [
+    {file = "decord-0.6.0-py3-none-manylinux2010_x86_64.whl", hash = "sha256:51997f20be8958e23b7c4061ba45d0efcd86bffd5fe81c695d0befee0d442976"},
+    {file = "decord-0.6.0-py3-none-win_amd64.whl", hash = "sha256:02665d7c4f1193a330205a791bc128f7e108eb6ae5b67144437a02f700943bad"},
 ]
 
 [[package]]
