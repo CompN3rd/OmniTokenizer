@@ -1,6 +1,6 @@
 [project]
 name = "OmniTokenizer"
-version = "0.1.0"
+version = "0.1.1"
 description = "Official pytorch implementation of the following paper: OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation."
 authors = [{ name = "Junke Wang", email = "wangjk21@m.fudan.edu.cn" }]
 dependencies = [
